@@ -3,9 +3,11 @@ import TripList from "./Components/TripList";
 import "./App.css";
 
 function App() {
+  const [showTrips, setShowTrips] = useState(true);
   return (
     <div className="App">
-      <TripList />
+      <button onClick={() => setShowTrips(false)}>Hide</button>
+      {showTrips && <TripList />}
     </div>
   );
 }
