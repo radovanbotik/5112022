@@ -1,0 +1,13 @@
+{
+  "trips": [
+    { "title": "Trnava", "price": "50eur", "id": 1, "location": "Slovakia" },
+    { "title": "Budapest", "price": "100eur", "id": 2, "location": "Hungary" },
+    {
+      "title": "Bratislava",
+      "price": "200eur",
+      "id": 3,
+      "location": "Slovakia"
+    },
+    { "title": "Szeged", "price": "300eur", "id": 4, "location": "Hungary" }
+  ]
+}
